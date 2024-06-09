@@ -1,0 +1,47 @@
+.flex {
+
+   display: flex;
+}
+
+.justify-center {
+
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+.border {
+    border: 2px solid red;
+    margin: 3px;
+}
+
+
+.m-1 {
+    margin: 10px;
+  }
+  .p-1 {
+    padding: 15px;
+  }
+
+
+
+
+
+/* For Webkit Browsers */
+::-webkit-scrollbar {
+    width: 10px;
+    
+}
+
+::-webkit-scrollbar-track {
+    background: #333; /* Track color */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #555; /* Thumb color */
+    border-radius: 5px;
+}
+
+
+
